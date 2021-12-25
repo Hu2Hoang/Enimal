@@ -77,9 +77,13 @@ li{
     font-family:'Shizuru', cursive;
     padding-top: 20px;
 }
-
+.banner{
+  background:url("banner.jpg");
+  width: 100%;
+  height:80vh;
+}
 footer{
-    position: fixed;
+    position: static;
     bottom: 0px;
     width: 100%;
     background-color:#222;
