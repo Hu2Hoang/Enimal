@@ -82,7 +82,7 @@ li{
 #ten{
     font-size:50px;
     font-family:'Shizuru', cursive;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* Banner Begin */
@@ -153,7 +153,7 @@ li{
 .intro-first{
   width: 100%;
   height:700px;
-  background-color: #dfdfdf;
+  background-color:#fdf2ee;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -355,7 +355,11 @@ li{
   transition: opacity 300ms ease;
 }
 .carousel-wrapper .carousel .carousel-cell .more:hover,
-.carousel-wrapper .carousel .carousel-cell .more:active,
+.carousel-wrapper .carousel .carousel-cell .more:active{
+  color: #F7866A;
+  text-decoration: none;
+}
+
 .carousel-wrapper .carousel .carousel-cell .more:visited,
 .carousel-wrapper .carousel .carousel-cell .more:focus{
   color: #F7866A;
@@ -413,11 +417,11 @@ li{
       height: 150px;
   }
 }
-footer{
+.footer{
   position: static;
   bottom: 0px;
   width: 100%;
-  background-color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
 }
 .main-content{
   display: flex;
@@ -538,11 +542,7 @@ footer{
   .right form .btn button:hover{
     background-color:#e7ba59;
   }
-  .bottom center{
-    padding: 5px;
-    font-size: 0.9375rem;
-    background: #000000;
-  }
+
   .bottom center span{
     color: #fff;
   }
@@ -566,4 +566,14 @@ footer{
       margin: 5px 0;
     }
 }
-  
+footer{
+ 
+  /* background-image: url("./images/ft.png"); */
+  background-image: url("./images/ft.png");
+  width:100%;
+  height:81px;
+}
+footer .bottom{
+  padding-top:32px;
+  text-align: center;
+}
