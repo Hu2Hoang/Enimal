@@ -55,11 +55,11 @@ li {
 }
 .container #header {
   width: 100%;
-  height: 70px;
+  height: 60px;
 }
 .container #header #logo {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 7px;
+  padding-bottom: 10px;
   float: left;
 }
 .container #header #nav ul a {
@@ -68,8 +68,7 @@ li {
   /*text-transform: uppercase;*/
   color: #FEF0ED;
   display: block;
-  padding: 25px 10px 20px 10px;
-  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 10px 20px 10px;
 }
 /*Tạo hiệu ứng gạch chân*/
 .hover-underline-animation {
@@ -121,7 +120,7 @@ li {
 .design-img{
     position: relative;
     overflow: hidden;
-    height:420px;
+    height:400px;
 }
 .design-img::after{
     position: absolute;
@@ -327,10 +326,10 @@ li {
     /* background-image: url("./images/ft.png"); */
     background-image: url("./images/ft.png");
     width: 100%;
-    height: 81px;
+    height: 60px;
   }
   footer .bottom {
-    padding-top: 32px;
+    padding-top: 20px;
     text-align: center;
   }
   
