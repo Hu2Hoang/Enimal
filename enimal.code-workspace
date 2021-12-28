@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../temp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "petland"
+	}
+}
