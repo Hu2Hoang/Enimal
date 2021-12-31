@@ -426,12 +426,7 @@ li {
   }
 }
 /* Footer Begin */
-.footer {
-  position: static;
-  bottom: 0px;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-}
+
 .main-content {
   display: flex;
 }
@@ -585,4 +580,10 @@ footer {
 footer .bottom {
   padding-top: 20px;
   text-align: center;
+}
+.footer {
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
