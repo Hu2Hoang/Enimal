@@ -82,16 +82,28 @@ li {
   transform-origin: bottom left;
 }
 body{
-   background-color: #f7dbd0;
+   background-color: #FACFC6;
 }
 /*Write Here begin*/
-.intro{
-    
+.link-content{
+  width: 100%;
+  height:200px;
+  padding-left:500px;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 50% 50%;
+  padding:10px;
+}
+.img-cao{
+  width:220px;
+  height:200px;
 }
 .intro-txt{
     padding-top: 70px;
-    font-size:20px;
-    font-family:'Nunito', sans-serif;
+    font-size:23px;
+    font-family:'Poppins', sans-serif;
 }
 
 .body-new{

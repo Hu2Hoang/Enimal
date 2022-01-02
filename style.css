@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 :root {
   --bg-primary: #000000;
 }
@@ -120,11 +120,13 @@ li {
 .banner-content h1 {
   font-size: 23px;
   font-weight: 200;
+  line-height:30px;
   font-family: 'Nunito Sans', sans-serif;
 }
 .banner-content h2 {
   font-size: 23px;
   font-weight: 200;
+  line-height:30px;
   font-family: 'Nunito Sans', sans-serif;
 }
 .search-box {
@@ -180,8 +182,8 @@ li {
   font-family: "Quicksand", sans-serif;
 }
 .intro-txt h3 {
-  font-size: 17px;
-  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
   width: 420px;
 }
 .intro-img {

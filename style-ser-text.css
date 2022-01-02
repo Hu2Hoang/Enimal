@@ -10,7 +10,15 @@
   margin: 0px;
   font-size: 17px;
 }
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
 
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
 /* Thẻ a là thẻ link 
 Bỏ gạch chân ở đươcg link */
 a {
@@ -167,6 +175,39 @@ li {
   content: "";
   clear: both;
   display: table;
+}
+
+.cnt{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  padding-left: 100px;
+}
+table{
+  /* border: 1px solid black; */
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+tr,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+.price{
+  padding-top:20px;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+.line{
+  /* position: absolute;
+  transform: rotate3d(1, 1, 1, 45deg); */
+  width: 50%;
+  /* left: -10px;*/
+    border: 1px solid black; 
+    padding-left: 250px;
 }
 /* Begin Footer */
 footer {
