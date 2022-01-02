@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 :root {
   --bg-primary: #000000;
@@ -117,12 +118,14 @@ li {
   /* font-size: 50px; */
 }
 .banner-content h1 {
-  font-size: 25px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 23px;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .banner-content h2 {
-  font-size: 20px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 23px;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .search-box {
   position: absolute;
