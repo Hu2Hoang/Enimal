@@ -103,7 +103,7 @@ body{
 .intro-txt{
     padding-top: 70px;
     font-size:23px;
-    color:#e4a62dde;
+    color:chocolate;
     font-family:'Poppins', sans-serif;
 }
 
@@ -148,6 +148,7 @@ body{
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    color:cadetblue;
 }
 .article-content .card-title{
     margin:1rem 0;
