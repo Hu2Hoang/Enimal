@@ -30,7 +30,7 @@ a{
     height: 60px;
   }
   .container #header #logo {
-    padding-top: 7px;
+    padding-top: 3px;
     padding-bottom: 10px;
     float: left;
   }
@@ -355,6 +355,9 @@ margin-right:20px ;
   }
   .bottom center a:hover {
     text-decoration: underline;
+  }
+  .pfooter{
+    line-height:20px;
   }
   @media screen and (max-width: 900px) {
     footer {
