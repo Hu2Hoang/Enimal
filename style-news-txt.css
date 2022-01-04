@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+:root {
+  --bg-primary: #000000;
+}
+* {
+  padding-top: 0px;
+  margin: 0px;
+  font-size: 17px;
+}
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+/* Thẻ a là thẻ link 
+Bỏ gạch chân ở đươcg link */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+.container-fuil {
+  width: 100%;
+  background: url(./images/header.png);
+}
+.container {
+  width: 1177px;
+  margin: 0px auto;
+}
+.container #header {
+  width: 100%;
+  height: 60px;
+}
+.container #header #logo {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  float: left;
+}
+.container #header #nav ul a {
+  float: right;
+  /*Đưa sang phải - In hoa chữ*/
+  /*text-transform: uppercase;*/
+  color: #FEF0ED;
+  display: block;
+  padding: 20px 10px 20px 10px;
+}
+/*Tạo hiệu ứng gạch chân*/
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fef0ed;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #f39c38;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.blog{
+    width: 70vw;
+    min-width: 400px;
+    height:100px;
+    display:block;
+    margin:auto;
+    padding:50px 0;
+  }
+  .article{
+    height: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 100px;
+  }
+  .blog, .article{
+    position: relative;
+    height: fit-content;
+    padding-bottom: 0;
+  }
+  .title{
+    width: 100%;
+    min-height: 100px;
+    height:auto;
+    outline:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:50px;
+    font-weight: 600;
+    corlor:#2d2d2d;
+    resize: none;
+    padding: 10px;
+  }
+  .article, .title{
+    min-height: auto;
+    height:fit-content;
+    padding:0 10px;
+    white-space: normal;
+    font-family: 'Nunito', sans-serif;
+  }
+  .published{
+    margin: 20px 0 60px;
+    padding:0 10px;
+    text-transform:capitalize;
+    font-size: italic;
+    corlor:rgba(0,0,0,0.5);
+  }
+  .published span{
+    font-weight: 700;
+    font-style:normal ;
+  }
+  .article *{
+    margin: 30px 0;
+    color:#2d2d2d;
+  }
+  
+  .img-ser2{
+    width: 800px;
+    height: 480px;
+    margin: 10px auto;
+    padding-left: 90px;
+  }
+  .img-ser1{
+    padding-top:20px;
+    width: 370px;
+    height:200px;
+    box-shadow:3px 3px 3px grey;
+  }
+  .link-share{
+    font-size:20px;
+    font-weight: 500;
+    font-family:  'Nunito', sans-serif;
+    color: #d8a330
+  }
+  .link-content{
+    padding-top:50px;
+    width: 100%;
+    height:300px;
+    padding-left:275px;
+    text-align: center;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .line-tamrua{
+    width: 0%;
+    border: 1px solid black;
+    padding-left: 250px;
+  }
+  .cnt{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 100px;
+  }
+  .describe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  .paragraph{
+    font-size: 18px;
+    text-align: 2.5px;
+  
+  }
+
+footer {
+    /* background-image: url("./images/ft.png"); */
+    background-image: url("./images/ft.png");
+    width: 100%;
+    height: 60px;
+}
+.bottom center span {
+    color: #fff;
+}
+footer .bottom {
+    padding-top: 20px;
+    text-align: center;
+}
+.footer {
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
