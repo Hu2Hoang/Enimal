@@ -75,6 +75,7 @@ li {
   display: inline-block;
   position: relative;
   color: #fef0ed;
+  font-family: 'OpenSans', sans-serif;
 }
 
 .hover-underline-animation:after {
