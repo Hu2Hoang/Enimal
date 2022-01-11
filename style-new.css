@@ -87,7 +87,7 @@ body{
 }
 /*Write Here begin*/
 .link-content{
-  width: 100%;
+  /* width: 100%; */
   height:200px;
   padding-left:500px;
   text-align: center;
